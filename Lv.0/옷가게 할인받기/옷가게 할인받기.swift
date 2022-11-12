@@ -9,7 +9,7 @@ func solution(_ price:Int) -> Int {
         return Int(Double(price) * 0.9)
     }
     guard price < 100000 else {
-    return Int(Double(price) * 0.95)
+        return Int(Double(price) * 0.95)
     }
     return price
 }
